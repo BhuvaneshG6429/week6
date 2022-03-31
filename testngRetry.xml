@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="URL" value="http://leaftaps.com/opentaps/control/login"></parameter>
+<parameter name="BROWSER_NAME" value="chrome"></parameter>
+<listeners>
+<listener class-name="assignment.week6day2.RetryConfig"></listener>
+</listeners>
+  <test thread-count="5" name="Test" verbose="5">
+  <classes>
+  	<class name="assignment.week6day2.LearnRetry" />
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
