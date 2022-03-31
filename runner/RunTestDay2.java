@@ -4,7 +4,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 
-	@CucumberOptions(	features = "src/main/java/features",
+	@CucumberOptions(	features = "src/main/java/featuresLeafTaps",
 	glue ="assignment.week6day2",
 	monochrome = true,
 	publish = true,
